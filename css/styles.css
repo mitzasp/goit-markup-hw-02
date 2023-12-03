@@ -33,7 +33,7 @@ body {
   color: var(--NAVY-BLUE);
 }
 /* Navigation list */
-.main-navigation,
+.navigation-list,
 .list {
   list-style: none;
 }
