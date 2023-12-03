@@ -10,6 +10,8 @@
 }
 /* Global Style */
 body {
+  color: #434455;
+  background-color: #ffffffff;
   font-family: var(--text-font-family);
 }
 a {
