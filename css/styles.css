@@ -16,8 +16,6 @@ body {
 }
 
 /* Classes */
-
-.header-logo,
 .link {
   color: var(--IRIS);
   font-family: "Raleway", sans-serif;
