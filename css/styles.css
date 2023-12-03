@@ -17,7 +17,7 @@ body {
 
 /* Classes */
 /* Logo */
-.link {
+.logo {
   color: var(--IRIS);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -25,41 +25,49 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.link {
   text-decoration: none;
 }
 .header-logo-second-part {
   color: var(--NAVY-BLUE);
 }
 /* Navigation list */
+.main-navigation,
 .list {
   list-style: none;
 }
-.link {
+.nav-link {
   color: var(--NAVY-BLUE);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+}
+.link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--OCEAN);
 }
+
 /* Address */
-.list {
+.address-container {
   font-style: normal;
+}
+.address-list,
+.list {
   list-style: none;
 }
-
-.link {
+.address-link {
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+}
+.link {
   text-decoration: none;
 }
 .link:hover,
