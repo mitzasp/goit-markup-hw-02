@@ -1,0 +1,101 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+  --SLATE: #434455;
+  --WHITE: #fff;
+  --CLOUD: #f4f4fd;
+  --OCEAN: #404bbf;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+}
+/* Global Style */
+body {
+  font-family: var(--text-font-family);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* Classes */
+.header-logo-first-part {
+  color: var(--IRIS);
+}
+.header-logo-second-part {
+  color: var(--NAVY-BLUE);
+}
+.nav-link {
+  color: var(--NAVY-BLUE);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--IRIS);
+}
+.adress-contacts {
+  color: var(--SLATE);
+}
+.adress-contacts:hover,
+.adress-contacts:focus {
+  color: var(--IRIS);
+}
+.hero-content {
+  color: var(--WHITE);
+  background-color: var(--NAVY-BLUE);
+}
+.order-service-button {
+  color: var(--WHITE);
+  background-color: var(--IRIS);
+}
+.about-subtitle {
+  color: var(--NAVY-BLUE);
+}
+.about-subtitle-description {
+  color: var(--SLATE);
+}
+.what-are-we-doing-title {
+  color: var(--NAVY-BLUE);
+}
+.our-team-section {
+  background-color: var(--CLOUD);
+}
+.our-team-title {
+  color: var(--NAVY-BLUE);
+}
+.our-team-subtitle {
+  color: var(--NAVY-BLUE);
+}
+.our-team-subtitle-description {
+  color: var(--SLATE);
+}
+.footer-section {
+  background-color: var(--NAVY-BLUE);
+}
+.footer-logo-first-part {
+  color: var(--IRIS);
+}
+.footer-logo-second-part {
+  color: var(--CLOUD);
+}
+.footer-description {
+  color: var(--CLOUD);
+}
+
+/* Portfolio page */
+.all-button {
+  color: var(--WHITE);
+  background-color: var(--OCEAN);
+}
+.web-site-button,
+.app-button,
+.design-button,
+.marketing-button {
+  color: var(--IRIS);
+  background-color: var(--CLOUD);
+}
+.portofolio-subtitle {
+  color: var(--NAVY-BLUE);
+}
+.portofolio-subtitle-description {
+  color: var(--SLATE);
+}
