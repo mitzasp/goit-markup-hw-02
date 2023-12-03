@@ -16,7 +16,10 @@ body {
 }
 
 /* Classes */
-.link {
+.list {
+  list-style: none;
+}
+.link-logo {
   color: var(--IRIS);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
