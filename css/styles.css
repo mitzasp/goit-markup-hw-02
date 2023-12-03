@@ -14,28 +14,22 @@ body {
   background-color: #ffffffff;
   font-family: var(--text-font-family);
 }
-a {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
+
 /* Classes */
-.header-logo-first-part {
+
+.header-logo,
+.link {
   color: var(--IRIS);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .header-logo-second-part {
   color: var(--NAVY-BLUE);
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 .nav-link {
   color: var(--NAVY-BLUE);
