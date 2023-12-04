@@ -185,40 +185,42 @@ body {
 }
 
 /* Portfolio page */
-.all-button {
-  color: var(--WHITE);
-  background-color: var(--OCEAN);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.64px;
+.list {
+  list-style: none;
 }
-.web-site-button,
-.app-button,
-.design-button,
-.marketing-button {
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
   color: var(--IRIS);
   background-color: var(--CLOUD);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.portofolio-subtitle {
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffffff;
+  background-color: var(--OCEAN);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.portfolio-title {
   color: var(--NAVY-BLUE);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.portofolio-subtitle-description {
+.portfolio-title-description {
   color: var(--SLATE);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
