@@ -94,6 +94,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .order-service-button:hover,
 .order-service-button:focus {
@@ -117,6 +118,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* What are we doing section */
 .what-are-we-doing-title {
   color: var(--NAVY-BLUE);
   font-size: 36px;
